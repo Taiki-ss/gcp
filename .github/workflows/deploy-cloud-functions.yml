@@ -20,6 +20,4 @@ jobs:
         export_default_credentials: true
 
     - name: Deploy Functions
-      run: gcloud functions deploy function-1 \
-          --timeout 540 \
-          --source src \
+      run: sh app/deploy/deploy.sh
