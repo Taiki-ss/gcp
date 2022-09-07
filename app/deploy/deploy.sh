@@ -1,1 +1,1 @@
-gcloud functions deploy function-1 --timeout 540 --source src
+gcloud functions deploy test_function_01 --timeout 540 --source src
