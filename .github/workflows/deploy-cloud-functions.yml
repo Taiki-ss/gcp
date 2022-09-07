@@ -14,8 +14,8 @@ jobs:
     - name: Set up Cloud SDK
       uses: google-github-actions/setup-gcloud@main
       with:
-        project_id: trim-keep-351012
-        service_account_email: trim-keep-351012@appspot.gserviceaccount.com
+        project_id: taiki-gcp
+        service_account_email: taiki-gcp@appspot.gserviceaccount.com
         service_account_key: ${{ secrets.GCP_SECRET }}
         export_default_credentials: true
 
